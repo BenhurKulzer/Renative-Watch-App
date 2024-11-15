@@ -1,0 +1,25 @@
+{
+    "$schema": ".rnv/schema/rnv.project.json",
+    "extendsTemplate": "@rnv/template-starter/renative.json",
+    "projectName": "hello",
+    "workspaceID": "rnv",
+    "templateConfig": {
+        "name": "@rnv/template-starter",
+        "version": "1.5.0"
+    },
+    "defaults": {
+        "supportedPlatforms": [
+            "androidwear",
+            "tizenwatch"
+        ]
+    },
+    "plugins": {
+        "@react-navigation/native": "source:rnv",
+        "@react-navigation/stack": "source:rnv",
+        "react-native-gesture-handler": "source:rnv",
+        "react-native-safe-area-context": "source:rnv",
+        "react-native-screens": "source:rnv",
+        "react-native-vector-icons": "source:rnv",
+        "@react-navigation/native-stack": "source:rnv"
+    }
+}
